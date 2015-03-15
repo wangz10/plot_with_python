@@ -104,7 +104,7 @@ pip install the-package-name.whl
 + Indexing
 
 ## Hands on
-refer to the notebook
+Please refer to the [notebook](http://nbviewer.ipython.org/github/wangz10/plot_with_python/blob/master/plots.ipynb)
 
 ## Thanks for your attention!
 + Questions?
