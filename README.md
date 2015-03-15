@@ -1,6 +1,56 @@
 # Plotting in Python
 Scripts and data used for the "Computer Programming for Big Data Biomedicine" class
 ## Before the class
++ We will need to use the following softwares and packages/modules:
+	- Python2 or Python3
+	- pip
+	- iPython Notebook
+	- Python modules: numpy, matplotlib, seaborn, mpld3
+
+To check if your computer have those softwares/modules installed, open a Terminal or Command Prompt and type:
+`
+$ python -V
+` 
+`
+$ pip -V
+`
+`
+$ ipython notebook -V
+`
+
+### Instructions for installing python modules:
+Install pip if you don't have pip installed by downloading the [get-pip.py](https://bootstrap.pypa.io/get-pip.py) script. Then cd to the directory and run:
+
+`
+$ python get-pip.py
+`
+You may have to add `sudo` to run the command if you are on a Mac or Linux.
+
+Install iPython notebook:
+`
+$ pip install "ipython[notebook]"
+`
+Try to test if the iPython notebook is successfully installed by 
+`
+$ ipython notebook
+`
+
+Check if python modules exist by 
+`
+$ python
+>>> import numpy
+>>> import matplotlib
+>>> import seaborn
+>>> import mpld3
+`
+If any of those modules doesn't exist, use pip to install them:
+`
+$ pip install seaborn
+`
+If you run into errors when using pip to install packages on a Windows, especially for numpy, try downloading the .whl file from [this link](http://www.lfd.uci.edu/~gohlke/pythonlibs) and run 
+`
+pip install the_package_name.whl
+` 
 
 ## Why Python?
 + Elegant syntax
