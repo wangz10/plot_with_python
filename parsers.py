@@ -28,7 +28,7 @@ def parse_soft(fn):
 		gene = line[1].upper() # convert gene to uppercase
 		# Convert each expression value from string to float
 		values = map(float, line[2:]) # expression values of a gene across samples
-		# values = [float(value) for value in line[1:]] # equivalent list comprehension
+		# values = [float(value) for value in line[2:]] # equivalent list comprehension
 		genes.append(gene)
 		mat.append(values)
 	# Close the files.
